@@ -73,5 +73,5 @@ you can keep up there if you really want to.
 
 ### Bug meanings:
 
-Bug01: out of range in call to DGTypeHandle::TypeName
-Bug02: out of range in call to DGItemHandle::Name
+    Bug01: out of range in call to DGTypeHandle::TypeName
+    Bug02: out of range in call to DGItemHandle::Name
