@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ DBSTypeHandle
+comment0.text=\nThis\ class\ provides\ a\ simple\ way\ to\ see\ how\ different\ types\ interact\nwith\ each\ other.\ All\ types\ are\ available\ as\ final\ variables,\ and\ all\ variables\nand\ functions\ are\ static,\ so\ you\ should\ never\ have\ to\ allocate\ one\ of\ these\nobjects.\ Which\ is\ good,\ because\ it's\ a\ fairly\ large\ array...\n\n@author\ Evan\ Hildreth\n@author\ root\ -1\ Entertainment\n@version\ 0.1\ Java\n\n
+comment1.target=TotNumTypes
+comment10.target=Fire
+comment11.target=Earth
+comment12.target=BlackMagic
+comment13.target=Fighting
+comment14.target=TypeArray
+comment15.target=Normal
+comment16.target=Sword
+comment17.target=Enhanced
+comment2.target=Water
+comment3.params=
+comment3.target=void\ Init()
+comment4.target=Remote
+comment5.params=type
+comment5.target=String\ Name(int)
+comment6.target=Flying
+comment7.params=atkType\ defType
+comment7.target=int\ Lookup(int,int)
+comment8.target=WhiteMagic
+comment9.target=Wind
+numComments=18

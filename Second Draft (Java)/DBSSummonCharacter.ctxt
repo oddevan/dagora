@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ DBSSummonCharacter
+comment0.text=\nA\ DGSummons\ is\ like\ a\ single-purpose\ character.\ They\ generally\ have\ only\ one\ attack\ that\ uses\ most,\ if\ not\ all,\nof\ their\ MP.\ The\ process\ is\ three-fold.\ A\ Playable\ summons\ the\ Summon,\ the\ Summon\ attacks,\ and\ then\ returns.\ At\nthe\ end\ of\ the\ turn,\ if\ the\ Summons\ is\ out\ of\ MP,\ it\ automatically\ returns\ with\ no\ peanalty.\ When\ it\ returns,\ it\nautomatically\ regains\ all\ MP.\n\n@author\ Evan\ Hildreth\ (root\ -1\ Entertainment)\ \n@version\ 0.1\ Java\n\n
+comment1.params=
+comment1.target=DBSCharacter\ Return()
+comment10.params=
+comment10.target=DBSCharacter\ EndTurn()
+comment11.params=
+comment11.target=DBSPlayableCharacter\ GetLinked()
+comment2.params=
+comment2.target=DBSSummonCharacter()
+comment3.params=name\ level\ hp\ mp\ maxhp\ maxmp\ atk\ def\ mag\ spd\ acc\ luc\ element\ stdAtk\ job\ intel
+comment3.target=DBSSummonCharacter(String,int,int,int,int,int,int,int,int,int,int,int,int,DBSAttack,DBSClass,DBSSummonsIntel)
+comment4.params=summoner
+comment4.target=void\ SetChar(DBSPlayableCharacter)
+comment5.target=myChar
+comment6.params=
+comment6.target=DBSSummonsIntel\ GetSumIntel()
+comment7.params=battle
+comment7.target=DBSCharacter\ ChooseAndSummon(DBSBattle)
+comment8.target=mySumIntel
+comment9.params=
+comment9.target=boolean\ StartTurn()
+numComments=12

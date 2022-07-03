@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ DBSStatusHandle
+comment0.text=\nThis\ class\ handles\ different\ status\ types\ and\ their\ effect\ on\ characters.\nLike\ <code>DBSTypeHandle</code>,\ this\ is\ a\ completely\ static\ class.\n\n@author\ Evan\ Hildreth\n@author\ root\ -1\ Entertainment\n@version\ 0.1\ Java\n\n
+comment1.params=status
+comment1.target=String\ Name(int)
+comment2.params=status
+comment2.target=boolean\ IsLegalStatus(int)
+comment2.text=returns\ true\ if\ status\ is\ a\ given\ status\ in\ this\ class\ \n
+comment3.target=Poison
+comment4.target=Sleep
+comment5.target=KO
+comment6.target=Normal
+comment7.params=status\ inflicted
+comment7.target=boolean\ Act(int,DBSCharacter)
+comment7.text=\nDoes\ stuff\ to\ the\ character\ based\ on\ status\ inflicted.\ Returns\ whether\nor\ not\ character\ is\ allowed\ to\ have\ a\ turn.\n\n@param\ \ \ status\ \ Status\ inflicted\ (use\ public\ constants)\n@param\ \ \ inflicted\ \ \ <code>DBSCharacter</code>\ inflicted\ with\ said\ status\n@return\ \ If\ inflicted\ can\ have\ a\ turn\n\n
+comment8.target=TotNumStatus
+numComments=9

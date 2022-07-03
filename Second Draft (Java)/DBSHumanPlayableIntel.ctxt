@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ DBSHumanPlayableIntel
+comment0.text=\nWrite\ a\ description\ of\ class\ DBSHumanPlayableIntel\ here.\n\n@author\ (your\ name)\ \n@version\ (a\ version\ number\ or\ a\ date)\n\n
+comment1.params=battle\ attack
+comment1.target=int\ ChooseAttackVictim(DBSBattle,DBSAttack)
+comment10.params=battle
+comment10.target=int\ ChooseCommand(DBSBattle)
+comment11.params=battle\ itm
+comment11.target=int\ ChooseItemVictim(DBSBattle,DBSItem)
+comment2.params=battle
+comment2.target=int\ ChooseAttack(DBSBattle)
+comment3.params=battle
+comment3.target=int\ ChooseItem(DBSBattle)
+comment4.params=
+comment4.target=DBSHumanPlayableIntel()
+comment5.params=mine
+comment5.target=DBSHumanPlayableIntel(DBSPlayableCharacter)
+comment6.target=io
+comment7.params=mine
+comment7.target=DBSPlayableIntel\ GetNewIntel(DBSPlayableCharacter)
+comment8.params=battle
+comment8.target=int\ DispVictims(DBSBattle)
+comment9.params=battle
+comment9.target=int\ ChooseSummons(DBSBattle)
+numComments=12

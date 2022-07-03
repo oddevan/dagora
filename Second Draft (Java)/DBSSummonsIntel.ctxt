@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ DBSSummonsIntel
+comment0.text=\nAbstract\ class\ DBSSummonsIntel\ -\ write\ a\ description\ of\ the\ class\ here\n\n@author\:\ \nDate\:\ \n\n
+comment1.params=battle\ attack
+comment1.target=int\ ChooseAttackVictim(DBSBattle,DBSAttack)
+comment10.params=battle
+comment10.target=int\ ChooseCommand(DBSBattle)
+comment11.params=battle\ itm
+comment11.target=int\ ChooseItemVictim(DBSBattle,DBSItem)
+comment2.params=mine
+comment2.target=void\ SetChar(DBSSummonCharacter)
+comment3.target=myChar
+comment4.params=battle
+comment4.target=int\ ChooseAttack(DBSBattle)
+comment5.params=battle
+comment5.target=int\ ChooseItem(DBSBattle)
+comment6.params=mine
+comment6.target=DBSSummonsIntel\ GetNewIntel(DBSSummonCharacter)
+comment7.params=
+comment7.target=DBSSummonsIntel()
+comment8.params=mine
+comment8.target=DBSSummonsIntel(DBSSummonCharacter)
+comment9.params=battle
+comment9.target=int\ ChooseSummons(DBSBattle)
+numComments=12

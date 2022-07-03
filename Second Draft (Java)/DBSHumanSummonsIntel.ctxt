@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ DBSHumanSummonsIntel
+comment0.text=\nWrite\ a\ description\ of\ class\ DBSHumanSummonsIntel\ here.\n\n@author\ (your\ name)\ \n@version\ (a\ version\ number\ or\ a\ date)\n\n
+comment1.params=battle\ attack
+comment1.target=int\ ChooseAttackVictim(DBSBattle,DBSAttack)
+comment2.params=battle
+comment2.target=int\ DispVictims(DBSBattle)
+comment3.params=mine
+comment3.target=DBSSummonsIntel\ GetNewIntel(DBSSummonCharacter)
+comment4.params=battle
+comment4.target=int\ ChooseCommand(DBSBattle)
+comment5.params=
+comment5.target=DBSHumanSummonsIntel()
+comment6.params=mine
+comment6.target=DBSHumanSummonsIntel(DBSSummonCharacter)
+comment7.target=io
+numComments=8

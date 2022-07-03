@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=interface\ DBSIntel
+comment0.text=\nThis\ interface\ is\ designed\ to\ give\ a\ framework\ for\ all\ intelligence\ modules\nworking\ with\ a\ character.\ In\ other\ words,\ each\ intelligence\ should\ perform\nthe\ following\ actions\ in\ some\ way\ shape\ or\ form.\ This\ can\ be\ intelligent\nproblem-solving,\ or\ it\ can\ be\ as\ simple\ as\ throwing\ some\ menus\ on\ the\ screen\nto\ prompt\ a\ human\ player.\n\n@author\ Evan\ Hildreth\ (root\ -1\ Entertainment)\n@version\ 0.1\ Java\n\n
+comment1.params=battle\ itm
+comment1.target=int\ ChooseItemVictim(DBSBattle,DBSItem)
+comment1.text=\nChooses\ a\ character\ for\ the\ character\ to\ use\ the\ given\ item\ on.\nAlthough\ not\ required,\ it\ is\ recommended\ that\ the\ intel\ module\nmake\ sure\ the\ item\ can\ be\ used\ at\ the\ time\ before\ attempting\ to\nuse\ it.\n\n@param\ \ battle\ \ \ DBSBattle\ the\ character\ is\ acting\ in\n@param\ \ itm\ \ \ \ \ \ item\ the\ character\ is\ using\n@return\ \ \ \ \ \ index\ in\ battle's\ GetFromQueue(int)\ method\n\n
+comment2.params=battle
+comment2.target=int\ ChooseItem(DBSBattle)
+comment2.text=\nChooses\ an\ item\ for\ the\ character\ to\ use.\ Although\ not\ required,\nit\ is\ recommended\ that\ the\ intel\ module\ make\ sure\ the\ item\ can\ be\nused\ at\ the\ time\ before\ attempting\ to\ use\ it.\n\n@param\ \ battle\ \ \ DBSBattle\ the\ character\ is\ acting\ in\n@return\ \ \ \ \ \ index\ in\ the\ character's\ team's\ GetItem(int)\ method\n\n
+comment3.params=battle\ attack
+comment3.target=int\ ChooseAttackVictim(DBSBattle,DBSAttack)
+comment3.text=\nChooses\ the\ victim\ for\ the\ character\ to\ attack.\ This\ can\ include\nany\ character\ in\ the\ given\ battle.\ The\ intel\ module\ must\ make\ sure\nthe\ attacking\ character\ has\ enough\ MP\ to\ perform\ the\ attack.\n\n@param\ \ battle\ \ \ <code>DBSBattle</code>\ the\ character\ is\ acting\ in\n@param\ \ attack\ \ \ attack\ the\ character\ is\ using\n@return\ \ \ \ \ \ index\ in\ the\ battle's\ GetFromQueue(int)\ method\n\n
+comment4.params=battle
+comment4.target=int\ ChooseAttack(DBSBattle)
+comment4.text=\nChooses\ the\ special\ attack\ for\ the\ character\ to\ perform\n\n@param\ \ battle\ \ \ <code>DBSBattle</code>\ the\ character\ is\ acting\ in\n@return\ \ \ \ \ \ index\ in\ character's\ GetAttack(int)\ method\ \n\n
+comment5.params=battle
+comment5.target=int\ ChooseCommand(DBSBattle)
+comment5.text=\nChooses\ the\ action\ for\ the\ character\ to\ perform\n\n@param\ \ battle\ \ \ <code>DBSBattle</code>\ the\ character\ is\ acting\ in\n@return\ \ \ \ \ \ action\ for\ character\ to\ perform\ \n\n
+comment6.params=battle
+comment6.target=int\ ChooseSummons(DBSBattle)
+comment6.text=\nChooses\ a\ monster\ for\ the\ character\ to\ summon.\ This\ is\ only\ useful\nfor\ certain\ types\ of\ characters;\ all\ others\ should\ return\ -1\ instead.\nThose\ that\ can\ summon,\ it\ should\ return\ the\ index\ of\ the\ monster\nto\ be\ summoned.\n\n@param\ \ battle\ \ \ DBSBattle\ the\ character\ is\ acting\ in\n@return\ \ \ \ \ \ index\ in\ character's\ GetSummon(int)\ method\n\n
+numComments=7

@@ -1,0 +1,139 @@
+Class documentation
+<---- javadoc command: ---->
+javadoc
+-author
+-version
+-nodeprecated
+-package
+-bottom
+<small><em>Generated&nbsp;by&nbsp;BlueJ</em></small>
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+E:\Dev\Java\dagora\doc
+E:\Dev\Java\dagora\DBSCharacter.java
+<---- end of javadoc command ---->
+Loading source file E:\Dev\Java\dagora\DBSCharacter.java...
+E:\Dev\Java\dagora\DBSCharacter.java:114: Invalid expression statement.
+            cout << myName << " fell." << endl;
+                                       ^
+E:\Dev\Java\dagora\DBSCharacter.java:135: Method void XPUp(int) requires a method body. Otherwise declare it as abstract.
+    public void XPUp(int value);
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:136: Method void Revive() requires a method body. Otherwise declare it as abstract.
+    public void Revive();
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:137: Method void ChangeStatus(char) requires a method body. Otherwise declare it as abstract.
+    public void ChangeStatus(char stat);
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:138: Method void LevelUp() requires a method body. Otherwise declare it as abstract.
+    public void LevelUp();
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:139: Method void SetTeam(DGTeam) requires a method body. Otherwise declare it as abstract.
+    public void SetTeam(DGTeam newTeam);
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:140: Method boolean Equip(DGWeapon) requires a method body. Otherwise declare it as abstract.
+    public boolean Equip(DGWeapon newbie);
+                   ^
+E:\Dev\Java\dagora\DBSCharacter.java:141: Method DGWeapon Dequip(int) requires a method body. Otherwise declare it as abstract.
+    public DGWeapon Dequip(int slot);
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:142: Method boolean Learn(int) requires a method body. Otherwise declare it as abstract.
+    public boolean Learn(int atkInd);
+                   ^
+E:\Dev\Java\dagora\DBSCharacter.java:143: Method boolean Learn(DGCommand) requires a method body. Otherwise declare it as abstract.
+    public boolean Learn(DGCommand ability);
+                   ^
+E:\Dev\Java\dagora\DBSCharacter.java:144: Method int Forget(int) requires a method body. Otherwise declare it as abstract.
+    public int Forget(int ind);
+               ^
+E:\Dev\Java\dagora\DBSCharacter.java:145: Method void ClassLevelUp() requires a method body. Otherwise declare it as abstract.
+    public void ClassLevelUp();
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:146: Method void ClassLevelDown() requires a method body. Otherwise declare it as abstract.
+    public void ClassLevelDown();
+                ^
+E:\Dev\Java\dagora\DBSCharacter.java:149: '{' expected.
+    public boolean IsAlive() const;
+                            ^
+E:\Dev\Java\dagora\DBSCharacter.java:150: '{' expected.
+    public int NormalAtkPow(int type, int pow) const;
+                                              ^
+E:\Dev\Java\dagora\DBSCharacter.java:151: '{' expected.
+    public int MagicAtkPow(int type, int pow) const;
+                                             ^
+E:\Dev\Java\dagora\DBSCharacter.java:152: '{' expected.
+    public int DefPow(int type) const;
+                               ^
+E:\Dev\Java\dagora\DBSCharacter.java:153: '{' expected.
+    public boolean HasAbility(DGCommand ability) const;
+                                                ^
+E:\Dev\Java\dagora\DBSCharacter.java:154: '{' expected.
+    public void PrintAttacks() const;
+                              ^
+E:\Dev\Java\dagora\DBSCharacter.java:155: '{' expected.
+    public int GetRushAtk() const;
+                           ^
+E:\Dev\Java\dagora\DBSCharacter.java:158: '{' expected.
+    public DGCommand ChooseCommand(DGBattle battle) const { return myIntel.ChooseCommand(battle); }
+                                                   ^
+E:\Dev\Java\dagora\DBSCharacter.java:159: '{' expected.
+    public int ChooseAttack(DGBattle battle) const { return myIntel.ChooseAttack(battle); }
+                                            ^
+E:\Dev\Java\dagora\DBSCharacter.java:160: '{' expected.
+    public int ChooseAttackVictim(DGBattle battle, boolean isTeam) const { return myIntel.ChooseAttackVictim(battle, isTeam); }
+                                                                  ^
+E:\Dev\Java\dagora\DBSCharacter.java:161: '{' expected.
+    public int ChooseAttackVictim(DGBattle battle, int atkInd) const { return myIntel.ChooseAttackVictim(battle, atkInd); }
+                                                              ^
+E:\Dev\Java\dagora\DBSCharacter.java:162: '{' expected.
+    public int ChooseItem(DGBattle battle) const { return myIntel.ChooseItem(battle); }
+                                          ^
+E:\Dev\Java\dagora\DBSCharacter.java:163: '{' expected.
+    public int ChooseItemVictim(DGBattle battle, int itmInd) const { return myIntel.ChooseItemVictim(battle, itmInd); }
+                                                            ^
+E:\Dev\Java\dagora\DBSCharacter.java:165: Method boolean StartTurn() requires a method body. Otherwise declare it as abstract.
+    public boolean StartTurn(); //returns true if player can have a turn
+                   ^
+E:\Dev\Java\dagora\DBSCharacter.java:166: Method DGCharacter EndTurn() requires a method body. Otherwise declare it as abstract.
+    public DGCharacter EndTurn();
+                       ^
+E:\Dev\Java\dagora\DBSCharacter.java:174: '{' expected.
+    public boolean CanSummon() const { return false; }
+                              ^
+E:\Dev\Java\dagora\DBSCharacter.java:175: '{' expected.
+    public boolean CanTransform() const { return false; }
+                                 ^
+E:\Dev\Java\dagora\DBSCharacter.java:178: '{' expected.
+    public int Atk() const;
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:179: '{' expected.
+    public int Def() const;
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:180: '{' expected.
+    public int Mag() const;
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:181: '{' expected.
+    public int Spd() const;
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:182: '{' expected.
+    public int Acc() const;
+                    ^
+E:\Dev\Java\dagora\DBSCharacter.java:186: '{' expected.
+    public int NumSummons() const { return 0; }
+                           ^
+E:\Dev\Java\dagora\DBSCharacter.java:187: Identifier expected.
+    public DGCharacter* GetSummons(int ind) const { return NULL; }
+                      ^
+E:\Dev\Java\dagora\DBSCharacter.java:218: Method void EnterRush() requires a method body. Otherwise declare it as abstract.
+    private void EnterRush();
+                 ^
+E:\Dev\Java\dagora\DBSCharacter.java:219: Method void ExitRush() requires a method body. Otherwise declare it as abstract.
+    private void ExitRush();
+                 ^
+E:\Dev\Java\dagora\DBSCharacter.java:220: Method boolean CheckRush() requires a method body. Otherwise declare it as abstract.
+    private boolean CheckRush();
+                    ^
+40 errors

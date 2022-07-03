@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=interface\ DBSItem
+comment0.text=\nThis\ is\ the\ interface\ that\ should\ be\ implemented\ by\ all\ items.\ Be\ creative\!\n\n@author\ Evan\ Hildreth\n@author\ root\ -1\ Entertainment\n@version\ 0.1\ Java\n\n
+comment1.params=
+comment1.target=String\ Name()
+comment1.text=\nReturns\ the\ item's\ name.\ This\ name\ should\ be\ unique\ to\ any\ other\ in\ the\nprogram\n\n@return\ \ item's\ name\ \n\n
+comment2.params=
+comment2.target=String\ toString()
+comment3.params=victim
+comment3.target=boolean\ Use(DBSCharacter)
+comment3.text=\nUses\ the\ item\ on\ the\ given\ <code>DBSCharacter</code>.\ If\ this\ method\nreturns\ false,\ then\ the\ number\ of\ items\ <b>should\ not\ be\ndecremented</b>\!\n\n@param\ \ \ victim\ \ <code>DBSCharacter</code>\ to\ have\ the\ item\ used\ on\n@return\ \ if\ item\ can\ be\ used.\n\n
+numComments=4

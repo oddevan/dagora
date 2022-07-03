@@ -1,0 +1,84 @@
+
+/**
+ * Write a description of class DBSHumanPlayableIntel here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class DBSHumanPlayableIntel extends DBSPlayableIntel
+{
+    private EasyReader io;
+
+    public DBSHumanPlayableIntel()
+    {
+        super();
+        io = new EasyReader();
+    }
+    
+    public DBSHumanPlayableIntel(DBSPlayableCharacter mine)
+    {
+        super(mine);
+        io = new EasyReader();
+    }
+    
+    public DBSPlayableIntel GetNewIntel(DBSPlayableCharacter mine)
+    {
+        return new DBSHumanPlayableIntel(mine);
+    }
+    
+    public int ChooseCommand(DBSBattle battle)
+    {
+        int[] commands = new int[DBSCommandHandle.Total_Number];
+        int numCmd = 0, choice;
+        
+        commands[numCmd] = DBSCommandHandle.Status;
+        numCmd++;
+        
+        commands[numCmd] = DBSCommandHandle.Attack;
+        numCmd++;
+        
+        if (myChar.NumAttacks() > 0)
+        {
+            commands[numCmd] = DBSCommandHandle.Special;
+            numCmd++;
+        }
+        
+        if (myChar.InRush())
+        {
+            commands[numCmd] = DBSCommandHandle.Adrenaline;
+            numCmd++;
+        }
+        
+        commands[numCmd] = DBSCommandHandle.Item;
+        numCmd++;
+        
+        if (myChar.CanSummon())
+        {
+            commands[numCmd] = DBSCommandHandle.Summon;
+            numCmd++;
+        }
+        
+        System.out.print(myChar + ": HP " + myChar.HP());
+        System.out.print(" MP " + myChar.MP() + "\n");
+        
+        for (int k = 0; k < numCmd; k++) System.out.println(k + ": " + commands[k]);
+        
+        do
+        {
+            System.out.print("Choose an option: ");
+            choice = io.readInt();
+            io.readLine();
+        } while ((choice >= numCmd) || (choice < 0));
+        return commands[choice];   
+    }
+    
+    public int ChooseAttack(DBSBattle battle);
+    
+    public int ChooseAttackVictim(DBSBattle battle, DBSAttack attack);
+    
+    public int ChooseItem(DBSBattle battle);
+    
+    public int ChooseItemVictim(DBSBattle battle, DBSItem itm);
+    
+    public int ChooseSummons(DBSBattle battle);
+}

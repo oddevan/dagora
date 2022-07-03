@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=class\ DBSCommandHandle
+comment0.text=\nThis\ is\ a\ static\ class\ that\ holds\ constants\ for\ each\ different\ command.\nTo\ add\ a\ new\ command,\ give\ it\ a\ int\ value\ here\ and\ add\ a\ corresponding\nblock\ of\ code\ in\ the\ DBSBattle\ class.\n\n@author\ Evan\ Hildreth,\ root\ -1\ Entertainment\ \n@version\ 0.1\ Java\n\n
+comment1.target=Special
+comment2.target=Return
+comment3.target=Summon
+comment4.target=Item
+comment5.params=ind
+comment5.target=String\ Name(int)
+comment5.text=\nReturns\ a\ string\ representation\ of\ the\ command\ with\ the\ corresponding\nnumber.\n\n@param\ \ \ ind\ \ \ \ \ int\ value\ of\ command\ in\ question\n@return\ \ \ \ \ \ \ \ \ \ String\ representation\ of\ command\n\n
+comment6.target=Attack
+comment7.target=Total_Number
+comment7.text=\nTotal\ number\ of\ commands\ in\ this\ class\n\n
+comment8.target=Adrenaline
+comment9.target=Status
+numComments=10

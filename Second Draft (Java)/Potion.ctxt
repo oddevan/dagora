@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=class\ Potion
+comment0.text=\nA\ simple\ health\ potion\!\ Perfect\ for\ when\ you\ need\ that\ quick\nget-up-and-go.\ Instantly\ heals\ 50\ HP,\ so\ you\ can\ keep\ going\ after\nthat\ critical\ hit.\n\n@author\ Evan\ Hildreth\ \n@version\ 0.1\ Java\n\n
+comment1.params=
+comment1.target=String\ Name()
+comment1.text=\nThis\ is\ a\ special,\ one-of-a-kind\ potion,\ but\ I'll\ keep\ things\ simple.\n\n@return\ \ "Potion"\ \n\n
+comment2.params=victim
+comment2.target=boolean\ Use(DBSCharacter)
+comment2.text=\nUses\ the\ potion\ on\ the\ given\ <code>DBSCharacter</code>.\ If\ this\ method\nreturns\ false,\ then\ the\ number\ of\ items\ <b>should\ not\ be\ndecremented</b>\!\n\n@param\ \ \ victim\ \ <code>DBSCharacter</code>\ to\ have\ the\ item\ used\ on\n@return\ \ if\ item\ can\ be\ used.\n\n
+comment3.params=
+comment3.target=String\ toString()
+numComments=4
